@@ -14,7 +14,7 @@ def write_todos(todos_arg, filepath="todos.txt"):
 
 
 def test_function():
-    print("This is a git test function")
+    print("This is a git test function part 2")
 
 
 if __name__ == "__main__":
