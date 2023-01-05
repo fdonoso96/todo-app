@@ -19,4 +19,3 @@ def test_function():
 
 if __name__ == "__main__":
     print("A")
-
