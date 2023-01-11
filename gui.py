@@ -9,11 +9,11 @@ if not os.path.exists('todos.txt'):
 
 sg.theme('DarkTeal10')
 
-label_time = sg.Text('',key='clock')
+label_time = sg.Text('', key='clock')
 label = sg.Text("Type in a to-do:")
-input_box = sg.InputText(tooltip="Enter todo",key="todo")
+input_box = sg.InputText(tooltip="Enter todo", key="todo")
 add_button = sg.Button("Add")
-list_box = sg.Listbox(values=functions.get_todos(),key='todos',
+list_box = sg.Listbox(values=functions.get_todos(), key='todos',
                       enable_events=True, size=(45, 10))
 edit_button = sg.Button("Edit")
 complete_button = sg.Button("Complete")
